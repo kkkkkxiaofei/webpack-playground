@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config ./examples/example2/webpack.config.js"
+    "build": "webpack --config ./examples/example3/webpack.config.js"
   },
   "keywords": [],
   "author": "",
