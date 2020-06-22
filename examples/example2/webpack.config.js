@@ -6,7 +6,8 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'sub-main.js',
     library: 'micro-app',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    publicPath: 'http://localhost:3001/example8/'
   },
   module: {
     rules: [

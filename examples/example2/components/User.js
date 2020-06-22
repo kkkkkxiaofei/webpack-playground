@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component, lazy } from 'react';
+
+const AsyncDescription = lazy(() => import('./AsyncDescription'));
 
 class User extends Component {
   constructor() {
@@ -13,7 +15,7 @@ class User extends Component {
       <div>
         <h2>User Component</h2>
         <h4 onClick={() => this.setState({ show: !this.state.show })}>click me</h4>
-        {this.state.show && <p>this is the description fo user component</p>}
+        {this.state.show && <AsyncDescription />}
       </div>
     );
   }
