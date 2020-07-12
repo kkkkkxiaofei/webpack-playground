@@ -3,6 +3,7 @@ let version = 1;
 exports.version = version;
 
 const addVersion = function() {
+  // exports.version = version = version + 1;
   version = version + 1;
 };
 
