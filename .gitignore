@@ -5,3 +5,4 @@ lib/
 es-dist/
 lib-dist/
 cjs-dist/
+es-cjs-dist/
