@@ -2,3 +2,5 @@ node_modules/
 dist/
 es/
 lib/
+es-dist/
+lib-dist/
