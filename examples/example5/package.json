@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "npm run compile:es && npm run compile:cjs",
+    "compile": "npm run compile:es && npm run compile:cjs && npm run compile:es-cjs",
     "run:es": "babel-node es/index.js",
     "run:es-cjs": "babel-node es-cjs/index.js",
     "compile:es": "babel es --out-dir es-dist",
