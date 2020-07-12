@@ -1,3 +1,5 @@
+console.log('loading common-js ...');
+
 let version = 1;
 
 exports.version = version;

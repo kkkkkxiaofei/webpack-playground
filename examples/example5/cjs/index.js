@@ -1,3 +1,5 @@
+console.log('runing index ...');
+
 const mod1 = require('./common-js');
 const mod2 = require('./common-js');
 
