@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel es --out-dir es-dist"
+    "compile": "npm run compile:es && npm run compile:cjs",
+    "compile:es": "babel es --out-dir es-dist",
+    "compile:cjs": "babel cjs --out-dir lib-dist"
   },
   "keywords": [],
   "author": "",
