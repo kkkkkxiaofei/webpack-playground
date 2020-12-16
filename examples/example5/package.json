@@ -11,7 +11,8 @@
     "compile:es": "babel es --out-dir es-dist",
     "compile:cjs": "babel cjs --out-dir cjs-dist",
     "compile:es-cjs": "babel es-cjs --out-dir es-cjs-dist",
-    "node-run": "node ./es/index.js --input-type=module"
+    "node-run": "node ./es/index.js --input-type=module",
+    "clear": "rm -rf *-dist"
   },
   "type": "module",
   "keywords": [],
