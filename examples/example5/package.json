@@ -5,13 +5,12 @@
   "main": "index.js",
   "scripts": {
     "compile": "npm run compile:es && npm run compile:cjs && npm run compile:es-cjs",
-    "run:es": "babel-node es/index.js",
-    "run:cjs": "node cjs/index.js",
-    "run:es-cjs": "babel-node es-cjs/index.js",
     "compile:es": "babel es --out-dir es-dist",
     "compile:cjs": "babel cjs --out-dir cjs-dist",
     "compile:es-cjs": "babel es-cjs --out-dir es-cjs-dist",
-    "node-run": "node ./es/index.js --input-type=module",
+    "run:es": "babel-node es/index.js",
+    "run:cjs": "node cjs/index.js",
+    "run:es-cjs": "babel-node es-cjs/index.js",
     "clear": "rm -rf *-dist"
   },
   "type": "module",
