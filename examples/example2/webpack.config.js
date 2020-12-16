@@ -18,13 +18,13 @@ module.exports = {
       }
     ]
   },
-  // externals: {
-  //   react: {
-  //     root: 'React',
-  //     umd: 'react',
-  //     commonjs2: 'react',
-  //     commonjs: 'react'
-  //   }
-  // },
+  externals: {
+    react: {
+      root: 'React',
+      umd: 'react',
+      commonjs2: 'react',
+      commonjs: 'react'
+    }
+  },
   mode: 'development'
 };
