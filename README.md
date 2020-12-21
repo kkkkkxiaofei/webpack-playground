@@ -24,4 +24,8 @@ React基本打包，测试代码分离和隔离依赖(external)
 
 测试webpack下的ts打包，需要进一步拓展，目前价值性不高。
 
+- Example 7
+
+测试HMR, 有待继续强化，目前还不能持久化原始state。
+
 
