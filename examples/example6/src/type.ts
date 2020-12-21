@@ -1,12 +1,6 @@
-// const tuple: [string, number] = ['1', 1];
 
 
+function voidFn(): void {
+  Math.ceil(1.1);
+}
 
-let unknownName: unknown;
-
-let unknownTitle: string = unknownName;
-
-
-let anyName: any;
-
-let anyTitle = anyName;
