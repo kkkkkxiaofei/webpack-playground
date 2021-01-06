@@ -1,0 +1,12 @@
+{
+  "name": "example9",
+  "version": "1.0.0",
+  "description": "loader demo",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
