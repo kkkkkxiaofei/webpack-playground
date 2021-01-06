@@ -28,14 +28,18 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: 'index.html',
-      filename: 'index1.html',
-      chunks: ['campaign']
+      filename: 'index.html',
     }),
-    new HtmlWebpackPlugin({
-      template: 'index.html',
-      filename: 'index2.html',
-      chunks: ['listing']
-    }),
+    // new HtmlWebpackPlugin({
+    //   template: 'index.html',
+    //   filename: 'index1.html',
+    //   chunks: ['campaign']
+    // }),
+    // new HtmlWebpackPlugin({
+    //   template: 'index.html',
+    //   filename: 'index2.html',
+    //   chunks: ['listing']
+    // }),
     new webpack.HotModuleReplacementPlugin()
   ],
   mode: 'development',
