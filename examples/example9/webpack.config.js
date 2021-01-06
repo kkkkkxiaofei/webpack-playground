@@ -12,7 +12,7 @@ module.exports = {
         test: /\.md$/,
         use: {
           loader: './mdLoader.js',
-          options: { name: 'md to dom' }
+          options: { placeholder: '#' }
         }
       }
     ]
