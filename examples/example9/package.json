@@ -4,7 +4,7 @@
   "description": "loader demo",
   "main": "index.js",
   "scripts": {
-    "build": "node index"
+    "build": "node build"
   },
   "keywords": [],
   "author": "",
