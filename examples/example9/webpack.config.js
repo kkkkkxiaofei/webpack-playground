@@ -14,6 +14,12 @@ module.exports = {
           loader: './mdLoader.js',
           options: { placeholder: '#' }
         }
+      },
+      {
+        test: /\.md$/,
+        use: {
+          loader: './fileLoader.js'
+        }
       }
     ]
   },
