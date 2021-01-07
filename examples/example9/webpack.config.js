@@ -11,16 +11,16 @@ module.exports = {
       {
         test: /\.md$/,
         use: {
-          loader: './mdLoader.js',
+          loader: './loaders/mdLoader.js',
           options: { placeholder: '#' }
         }
       },
-      {
-        test: /\.md$/,
-        use: {
-          loader: './fileLoader.js'
-        }
-      }
+      // {
+      //   test: /\.md$/,
+      //   use: {
+      //     loader: './loaders/fileLoader.js'
+      //   }
+      // }
     ]
   },
   mode: 'development'
