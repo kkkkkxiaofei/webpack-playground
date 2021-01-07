@@ -1,4 +1,5 @@
 const path = require('path');
+const MainfestPlugin = require('./plugins/mainfestPlugin');
 
 module.exports = {
   entry: './src/index',
@@ -23,5 +24,6 @@ module.exports = {
       // }
     ]
   },
+  plugins: [new MainfestPlugin()],
   mode: 'development'
 }
