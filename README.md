@@ -33,3 +33,6 @@ React基本打包，测试代码分离和隔离依赖(external)
 multiple entires的配置默认必须使用多个HtmlWebpackPlugin，不然会将所有chunk都打入到同一个html里。
 
 
+- Example 9
+
+简单的自定义loader和plugin，使用简单的tapable api注册插件。
