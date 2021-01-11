@@ -13,7 +13,6 @@
     "run:es-cjs": "babel-node es-cjs/index.js",
     "clear": "rm -rf *-dist"
   },
-  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
