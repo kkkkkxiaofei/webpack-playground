@@ -1,1 +1,0 @@
-module.exports = str => Object.prototype.toString.call(str) === '[object String]';

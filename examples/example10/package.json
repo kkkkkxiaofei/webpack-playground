@@ -4,7 +4,7 @@
   "description": "loader demo",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "rm -rf dist && webpack"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,6 @@
     "loader-utils": "^2.0.0"
   },
   "devDependencies": {
-    "webpack": "^5.12.2"
+    "webpack": "^5.51.1"
   }
 }
