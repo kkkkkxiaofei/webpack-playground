@@ -40,3 +40,7 @@ multiple entires的配置默认必须使用多个HtmlWebpackPlugin，不然会�
 - Example 10
 
 测试split code在多entry下的缓存策略。
+
+- Example 11
+
+Tree-shaking需要哪些步骤

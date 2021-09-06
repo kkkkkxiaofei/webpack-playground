@@ -1,0 +1,17 @@
+{
+  "name": "example11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry-without-usage.js",
+  "scripts": {
+    "build": "rm -rf dist && webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "terser-webpack-plugin": "^5.2.3",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
+  }
+}

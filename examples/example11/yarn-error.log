@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/xiaofei/n/bin/node /Users/xiaofei/n/bin/yarn build
+
+PATH: 
+  /Users/xiaofei/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/xiaofei/.rbenv/shims:/Users/xiaofei/.sdkman/candidates/java/current/bin:/Users/xiaofei/n/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/xiaofei/project/webpack-playground/examples/example11/package.json: Unexpected token } in JSON at position 225
+      at JSON.parse (<anonymous>)
+      at /Users/xiaofei/n/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/xiaofei/n/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /Users/xiaofei/n/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "example11",
+    "version": "1.0.0",
+    "description": "",
+    "main": "entry-without-usage.js",
+    "scripts": {
+      "build": "webpack"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "sideEffects": false,
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
